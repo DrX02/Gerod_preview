@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerod-info</title>
+  <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="flex items-center justify-center px-6 py-4 bg-[#eaf8f8]">
+      <!-- Left Links -->
+      <div class="hidden md:text-xs xl:text-base md:flex md:space-x-4 lg:space-x-14 text-[#008080]">
+        <a href="index.html" class="hover:text-black">HOME</a>
+        <a href="about.html" class="hover:text-black">ABOUT</a>
+        <a href="index.html#causes" class="hover:text-black">CAUSES</a>
+        <a href="blog.html#gallery" class="hover:text-black">GALLERY</a>
+      </div>
+
+      <!-- Logo -->
+      <div class="text-center mb-2 md:mb-0 hidden md:block md:shrink-0 lg:px-12 md:px-6 mt-2">
+        <a href=""><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full mb-2"></a>
+        <p class="text-[#008080] italic border-b-2 border-t-2 border-blue-400 font-semibold">Ensemble pour un monde
+          nouveau</p>
+      </div>
+
+      <!-- Right Links -->
+      <div class="hidden md:text-xs xl:text-base md:flex md:space-x-4 lg:space-x-14 text-[#008080]">
+        <a href="blog.html" class="hover:text-black">EVENTS</a>
+        <a href="about.html#objectifs" class="hover:text-black">Objectifs</a>
+        <a href="contact.html" class="hover:text-black">DONATE</a>
+        <a href="contact.html#links" class="hover:text-black">CONTACT</a>
+      </div>
+
+
+    </nav>
+
+    <!-- Mobile logo -->
+
+    <div class="md:hidden">
+      <a href=""><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full mb-4"></a>
+      <p class="text-center text-[#008080] text-sm italic border-b-2 border-t-2 border-blue-400 font-semibold mb-6">
+        Ensemble pour un monde nouveau</p>
+    </div>
+
+    <!-- Mobile Menu -->
+    <!-- Mobile Menu Button -->
+    <div class="md:hidden">
+      <button title="menu" id="menu-btn" class="text-[#008080] text-2xl pl-[90%]">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <!-- Mobile Link -->
+    <div id="mobile-menu" class="hidden bg-[#eaf8f8] text-center py-[30%]">
+      <a href="index.html" class="block py-2 text-[#008080] hover:text-black">HOME</a>
+      <a href="about.html" class="block py-2 text-[#008080] hover:text-black">ABOUT</a>
+      <a href="index.html#causes" class="block py-2 text-[#008080] hover:text-black">CAUSES</a>
+      <a href="blog.html#gallery" class="block py-2 text-[#008080] hover:text-black">GALLERY</a>
+      <a href="blog.html" class="block py-2 text-[#008080] hover:text-black">EVENTS</a>
+      <a href="about.html#objectifs" class="block py-2 text-[#008080] hover:text-black">Objectifs</a>
+      <a href="contact.html" class="block py-2 text-[#008080] hover:text-black">DONATE</a>
+      <a href="contact.html#links" class="block py-2 text-[#008080] hover:text-black">CONTACT</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-16 bg-blue-50 px-4">
+      <div class="container mx-auto text-left">
+        <!-- Titre de la section -->
+        <h2 class="text-4xl font-semi-bold text-blue-900 mb-12 italic">
+          <span class="font-bold border-b-2 border-blue-400 not-italic p-2">About</span> Us
+        </h2>
+        <div class="container mx-auto text-center">
+          <!-- Titre de la section -->
+          <h2 class="text-3xl font-base text-blue-900 mb-8 italic">Domaines d'Intervention
+          </h2>
+
+          <p class="mb-8 text-md text-gray-700 mx-auto max-w-4xl italic py-4">
+            Gerod s'engage à agir dans plusieurs domaines clés afin d'améliorer les conditions de vie et de favoriser le
+            développement durable. Nous croyons fermement que le changement commence par des actions concrètes et des
+            initiatives ciblées. Nos interventions visent à bâtir une société plus juste et équitable pour tous, en
+            mettant l'accent sur l'éducation, l'entrepreneuriat, et la solidarité. En mobilisant les ressources et les
+            talents au sein de nos communautés, nous travaillons à créer des opportunités durables qui profitent à tous
+            les membres de la société. Grâce à nos programmes, nous aspirons à encourager l'autonomisation des
+            individus, à renforcer les capacités locales et à promouvoir un avenir meilleur pour les générations
+            futures.
+          </p>
+
+          <div class="container grid grid-cols-1 md:grid-cols-3 gap-8 lg:px-52 ">
+            <div class="bg-blue-400 rounded-lg p-6 text-center text-white">
+              <div class="mb-4">
+                <i class="fas fa-user-graduate fa-3x"></i>
+              </div>
+              <h3 class="text-xl font-semibold">Éducation</h3>
+              <p class="mt-2">Nous travaillons à la sensibilisation des jeunes sur l'importance de l'éducation et nous
+                mettons en place des programmes de formation pour développer leurs compétences.</p>
+            </div>
+            <div class="bg-teal-600 rounded-lg p-6 text-center text-white">
+              <div class="mb-4">
+                <i class="fas fa-seedling fa-3x"></i>
+              </div>
+              <h3 class="text-xl font-semibold">Entrepreneuriat</h3>
+              <p class="mt-2">Nous soutenons les initiatives entrepreneuriales des jeunes et leur offrons des ressources
+                pour les aider à concrétiser leurs idées en projets viables.</p>
+            </div>
+            <div class="bg-purple-500 rounded-lg p-6 text-center text-white">
+              <div class="mb-4">
+                <i class="fas fa-hands-helping fa-3x"></i>
+              </div>
+              <h3 class="text-xl font-semibold">Solidarité</h3>
+              <p class="mt-2">Nous promouvons la solidarité au sein des communautés en organisant des actions d'entraide
+                et en soutenant les plus démunis.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4">
+      <div class="container mx-auto text-left">
+        <h2 class="text-4xl font-semi-bold text-blue-900 mb-12 italic">
+          <span class="font-bold border-b-2 border-blue-400 not-italic p-2">Objectifs</span> de Gerod
+        </h2>
+        <p class="text-gray-600 leading-relaxed mb-8 px-6 py-10 mx-auto max-w-4xl text-center">
+          L’objectif général de l’ONG « Gerod » est de promouvoir l’enseignement du leadership et de l’entrepreneuriat à
+          la base, touchant ainsi les fondations mêmes de notre société. En se concentrant sur les écoles primaires, les
+          collèges, les lycées, et en impliquant les familles, Gerod vise à inculquer des valeurs essentielles dès le
+          plus jeune âge. Ce projet ambitieux se donne pour mission de créer des individus capables de penser de manière
+          critique, de s’engager dans des initiatives entrepreneuriales et de devenir des leaders éthiques et
+          responsables. En s'appuyant sur ces principes, nous espérons développer les compétences nécessaires pour
+          façonner un avenir meilleur pour notre communauté.
+        </p>
+
+        <div class="border-2 border-green-500 rounded-lg p-8 mb-6 bg-green-50 shadow-lg container mx-auto max-w-6xl">
+          <h3 class="text-2xl font-semibold mb-4 text-blue-900">Objectifs Spécifiques</h3>
+          <ul class="list-disc list-inside text-teal-900 leading-relaxed">
+            <li class="mb-2 italic">Sensibiliser les écoliers et élèves sur les importances des formations de leadership
+              et d’entrepreneuriat;</li>
+            <li class="mb-2 italic">Sensibiliser les parents d’élèves, les enseignants et les dirigeants d’écoles sur
+              l’importance des formations en leadership et en entrepreneuriat;</li>
+            <li class="mb-2 italic">Organiser des séminaires de formation dans le domaine du leadership et de
+              l’entrepreneuriat pour les écoliers et les élèves;</li>
+            <li class="mb-2 italic">Accompagner les écoliers et élèves ayant des initiatives entrepreneuriales tant
+              lucratives ou non;</li>
+            <li class="mb-2 italic">Coacher les écoliers et élèves dans le cadre de la réussite de leur vie académique
+              et professionnelle;</li>
+            <li class="mb-2 italic">Éveiller l’esprit entrepreneurial et le sens de bon citoyen en chaque écolier et
+              élève;</li>
+            <li>Participer à la réduction de la pauvreté en Afrique.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <section class="bg-blue-100 py-16 text-blue-900">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-3xl font-bold mb-6">Soutenez notre cause</h2>
+      <p class="mb-6">Rejoignez notre mission en devenant bénévole ou en faisant un don pour aider ceux qui en ont
+        besoin.</p>
+      <div class="flex justify-center gap-6">
+        <a href="#" class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg text-white font-semibold">Faire un don</a>
+        <a href="#" class="px-6 py-3 border border-green-500 rounded-lg hover:bg-blue-200 font-semibold">Devenir
+          bénévole</a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-blue-100 text-gray-800 py-12">
+    <div class="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div>
+        <div>
+          <a href="index.html"><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full"></a>
+        </div>
+        <p class="text-sm text-gray-400 italic">"Ensemble pour un monde meilleur". <span class="not-italic">Nous
+            travaillons pour améliorer les conditions de vie futur.</span></p>
+      </div>
+      <div class="">
+        <h3 class="text-lg font-bold mb-4 text-blue-900">Liens rapides</h3>
+        <ul class="border-l-2 border-r-2 border-green-500 pl-4">
+          <li><a href="index.html" class="text-blue-600 hover:text-green-700 text-sm">Accueil</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Nos Actions</a></li>
+          <li><a href="about.html#services" class="text-blue-600 hover:text-green-700 text-sm">Gallery</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Services</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Events</a></li>
+          <li><a href="about.html#team" class="text-blue-600 hover:text-green-700 text-sm">Team</a></li>
+          <li><a href="contact.html#donate" class="text-blue-600 hover:text-green-700 text-sm">Donate</a></li>
+          <li><a href="contact.html" class="text-blue-600 hover:text-green-700 text-sm">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4 text-blue-900">Réseaux sociaux</h3>
+        <div class="flex space-x-4">
+          <a href="#" aria-label="Facebook"><i
+              class="fab fa-facebook-f w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+          <a href="#" aria-label="Whatsapp"><i
+              class="fab fa-whatsapp w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+          <a href="#" aria-label="Instagram"><i
+              class="fab fa-instagram w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+        </div>
+        <a href="#"
+          class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-500 transition duration-300">Rejoignez-nous</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+
+
+  </script>
+</body>
+
+</html>

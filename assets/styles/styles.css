@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #eaf8f8;
+  }
+
+  .carousel {
+    scroll-behavior: smooth;
+  }
+
+  .carousel-item {
+    transition: transform 0.5s;
+  }
+
+  /* Styliser la scrollbar pour le carrousel */
+  .carousel::-webkit-scrollbar {
+    width: 4px;
+    /* Largeur de la scrollbar */
+    height: 4px;
+    /* Hauteur pour scrollbar horizontale */
+  }
+
+  /* Piste de la scrollbar */
+  .carousel::-webkit-scrollbar-track {
+    background: transparent;
+    /* Fond transparent pour un look moderne */
+  }
+
+  /* Curseur de la scrollbar */
+  .carousel::-webkit-scrollbar-thumb {
+    background: #007bff;
+    /* Couleur principale */
+    border-radius: 10px;
+    /* Coins arrondis pour un style fluide */
+  }
+
+  /* Curseur au survol */
+  .carousel::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+    /* Couleur légèrement plus sombre au survol */
+  }
+
+  /* Pour Firefox */
+  .carousel {
+    scrollbar-width: thin;
+    /* Mince */
+    scrollbar-color: #007bff transparent;
+    /* Curseur | Fond */
+  }
+
+  .carousel::-webkit-scrollbar-thumb {
+    transition: background 0.3s ease;
+  }
+
+  .heart-beat {
+    animation: heart-beat 1.2s infinite;
+  }
+
+  @keyframes heart-beat {
+
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+      /* Ajout d'animations custom avec Tailwind */
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      /* Styliser les citation et leur symbole */
+      .quote-symbol {
+        position: absolute;
+        font-size: 50px;
+        color: rgba(0, 0, 0, 0.1);
+        top: -20px;
+        left: -20px;
+      }

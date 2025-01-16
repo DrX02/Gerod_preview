@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Gerod-contact</title>
+  <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="flex items-center justify-center px-6 py-4 bg-[#eaf8f8]">
+      <!-- Left Links -->
+      <div class="hidden md:text-xs xl:text-base md:flex md:space-x-4 lg:space-x-14 text-[#008080]">
+        <a href="index.html" class="hover:text-black">HOME</a>
+        <a href="about.html" class="hover:text-black">ABOUT</a>
+        <a href="index.html#causes" class="hover:text-black">CAUSES</a>
+        <a href="blog.html#gallery" class="hover:text-black">GALLERY</a>
+      </div>
+
+      <!-- Logo -->
+      <div class="text-center mb-2 md:mb-0 hidden md:block md:shrink-0 lg:px-12 md:px-6 mt-2">
+        <a href=""><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full mb-2"></a>
+        <p class="text-[#008080] italic border-b-2 border-t-2 border-blue-400 font-semibold">Ensemble pour un monde
+          nouveau</p>
+      </div>
+
+      <!-- Right Links -->
+      <div class="hidden md:text-xs xl:text-base md:flex md:space-x-4 lg:space-x-14 text-[#008080]">
+        <a href="blog.html" class="hover:text-black">EVENTS</a>
+        <a href="about.html#objectifs" class="hover:text-black">Objectifs</a>
+        <a href="contact.html" class="hover:text-black">DONATE</a>
+        <a href="contact.html#links" class="hover:text-black">CONTACT</a>
+      </div>
+
+
+    </nav>
+
+    <!-- Mobile logo -->
+
+    <div class="md:hidden">
+      <a href=""><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full mb-4"></a>
+      <p class="text-center text-[#008080] text-sm italic border-b-2 border-t-2 border-blue-400 font-semibold mb-6">
+        Ensemble pour un monde nouveau</p>
+    </div>
+
+    <!-- Mobile Menu -->
+    <!-- Mobile Menu Button -->
+    <div class="md:hidden">
+      <button title="menu" id="menu-btn" class="text-[#008080] text-2xl pl-[90%]">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <!-- Mobile Link -->
+    <div id="mobile-menu" class="hidden bg-[#eaf8f8] text-center py-[30%]">
+      <a href="index.html" class="block py-2 text-[#008080] hover:text-black">HOME</a>
+      <a href="about.html" class="block py-2 text-[#008080] hover:text-black">ABOUT</a>
+      <a href="index.html#causes" class="block py-2 text-[#008080] hover:text-black">CAUSES</a>
+      <a href="blog.html#gallery" class="block py-2 text-[#008080] hover:text-black">GALLERY</a>
+      <a href="blog.html" class="block py-2 text-[#008080] hover:text-black">EVENTS</a>
+      <a href="about.html#objectifs" class="block py-2 text-[#008080] hover:text-black">Objectifs</a>
+      <a href="contact.html" class="block py-2 text-[#008080] hover:text-black">DONATE</a>
+      <a href="contact.html#links" class="block py-2 text-[#008080] hover:text-black">CONTACT</a>
+    </div>
+  </header>
+
+
+  
+
+
+<!-- Section Contact et Comment Vous Pouvez Aider -->
+<section id="contact-help" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <!-- Section "Comment Vous Pouvez Aider" -->
+    <h2 class="text-3xl font-bold mb-6 text-center text-blue-900 fade-in">Comment Vous Pouvez Aider</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in mb-16">
+      <!-- Option 1 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition transform hover:translate-y-[-5px]">
+        <img src="./assets/img/image3.jpg" alt="Personne faisant un don" class="rounded-lg mb-4 h-56 w-full object-cover" loading="lazy">
+        <h3 class="text-lg font-bold mb-2">Faire un Don</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Vos contributions financières nous permettent de financer nos projets, soutenir des familles dans le besoin et étendre nos activités à plus de communautés vulnérables.
+        </p>
+      </div>
+      <!-- Option 2 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition transform hover:translate-y-[-5px]">
+        <img src="./assets/img/image2.jpg" alt="Personne devenant bénévole" class="rounded-lg mb-4 h-56 w-full object-cover" loading="lazy">
+        <h3 class="text-lg font-bold mb-2">Devenir Bénévole</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Rejoignez notre équipe de bénévoles pour participer à nos activités sur le terrain : distribution d'aides, sensibilisation ou soutien logistique.
+        </p>
+      </div>
+      <!-- Option 3 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition transform hover:translate-y-[-5px]">
+        <img src="./assets/img/image1.jpg" alt="Partager nos actions" class="rounded-lg mb-4 h-56 w-full object-cover" loading="lazy">
+        <h3 class="text-lg font-bold mb-2">Partager</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Abonnez-vous à notre page Facebook et aidez-nous à sensibiliser davantage en partageant nos initiatives et projets avec votre entourage ou sur vos réseaux sociaux.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section Contact -->
+    <h2 id="links" class="text-3xl font-bold mb-6 text-center text-blue-900 fade-in">Contactez-Nous</h2>
+    <div  class="flex flex-wrap justify-center gap-8 fade-in">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/onggerod?locale=fr_FR" 
+         aria-label="Rejoignez-nous sur notre page Facebook" 
+         class="flex items-center gap-4 p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg hover:bg-blue-100 transition">
+        <i class="fa-brands fa-facebook-f text-blue-700 text-2xl hover:rotate-[15deg] transition-transform"></i>
+        <span class="text-blue-700 font-semibold text-lg">Rejoignez-nous sur Facebook</span>
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/96 45 43 93" 
+         aria-label="Contactez-nous sur WhatsApp" 
+         class="flex items-center gap-4 p-6 bg-green-50 rounded-lg shadow hover:shadow-lg hover:bg-green-100 transition">
+        <i class="fa-brands fa-whatsapp text-green-700 text-2xl hover:rotate-[15deg] transition-transform"></i>
+        <span class="text-green-700 font-semibold text-lg">Contactez-nous sur WhatsApp</span>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:Assogbacletus46@gmail.com" 
+         aria-label="Envoyez-nous un email" 
+         class="flex items-center gap-4 p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg hover:bg-gray-200 transition">
+        <i class="fa-solid fa-envelope text-gray-700 text-2xl hover:rotate-[15deg] transition-transform"></i>
+        <span class="text-gray-700 font-semibold text-lg">Envoyez-nous un Email</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <footer class="bg-blue-100 text-gray-800 py-12">
+    <div class="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div>
+        <div>
+          <a href="index.html"><img src="./assets/img/logo.png" alt="Logo" class="h-56 mx-auto rounded-full"></a>
+        </div>
+        <p class="text-sm text-gray-400 italic">"Ensemble pour un monde meilleur". <span class="not-italic">Nous
+            travaillons pour améliorer les conditions de vie futur.</span></p>
+      </div>
+      <div class="">
+        <h3 class="text-lg font-bold mb-4 text-blue-900">Liens rapides</h3>
+        <ul class="border-l-2 border-r-2 border-green-500 pl-4">
+          <li><a href="index.html" class="text-blue-600 hover:text-green-700 text-sm">Accueil</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Nos Actions</a></li>
+          <li><a href="about.html#services" class="text-blue-600 hover:text-green-700 text-sm">Gallery</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Services</a></li>
+          <li><a href="blog.html" class="text-blue-600 hover:text-green-700 text-sm">Events</a></li>
+          <li><a href="about.html#team" class="text-blue-600 hover:text-green-700 text-sm">Team</a></li>
+          <li><a href="contact.html#donate" class="text-blue-600 hover:text-green-700 text-sm">Donate</a></li>
+          <li><a href="contact.html" class="text-blue-600 hover:text-green-700 text-sm">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4 text-blue-900">Réseaux sociaux</h3>
+        <div class="flex space-x-4">
+          <a href="#" aria-label="Facebook"><i
+              class="fab fa-facebook-f w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+          <a href="#" aria-label="Whatsapp"><i class="fab fa-whatsapp w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+          <a href="#" aria-label="Instagram"><i
+              class="fab fa-instagram w-6 h-6 text-gray-600 hover:text-green-600"></i></a>
+        </div>
+        <a href="#"
+          class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-500 transition duration-300">Rejoignez-nous</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+  <script>
+
+
+  </script>
+</body>
+
+</html>

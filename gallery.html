@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Gerod - Accueil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    .quote-symbol {
+      position: absolute;
+      font-size: 50px;
+      color: rgba(0, 0, 0, 0.1);
+      top: -20px;
+      left: -20px;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="bg-blue-700 text-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="text-lg font-bold">ONG Gerod</a>
+      <div class="space-x-4">
+        <a href="#help" class="hover:underline">Comment Aider</a>
+        <a href="#gallery" class="hover:underline">Galerie</a>
+        <a href="#blog-preview" class="hover:underline">Blog</a>
+        <a href="#quotes" class="hover:underline">Citations</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section "Comment Aider ?" -->
+  <section id="help" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6 fade-in">Comment Vous Pouvez Aider</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in">
+        <!-- Option 1 -->
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image3.jpg" alt="Faire un Don" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Faire un Don</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Vos contributions financières nous permettent de financer nos projets, soutenir des familles dans le besoin et étendre nos activités à plus de communautés vulnérables.
+          </p>
+          <a href="#" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition">Faire un Don</a>
+        </div>
+        <!-- Option 2 -->
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image2.jpg" alt="Devenir Bénévole" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Devenir Bénévole</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Rejoignez notre équipe de bénévoles pour participer à nos activités sur le terrain : distribution d'aides, sensibilisation ou soutien logistique.
+          </p>
+          <a href="#" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition">Rejoindre</a>
+        </div>
+        <!-- Option 3 -->
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image1.jpg" alt="Partager nos Actions" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Partager</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Aidez-nous à sensibiliser davantage en partageant nos initiatives et projets avec votre entourage ou sur vos réseaux sociaux.
+          </p>
+          <a href="#" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition">Partager</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Aperçu de la Galerie d'images -->  
+<section id="gallery" class="py-16 bg-gray-200">  
+    <div class="container mx-auto px-4 text-center">  
+      <h2 class="text-3xl font-bold mb-6 fade-in">Galerie d'Images</h2>  
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 fade-in">  
+        <div class="relative group">  
+          <img src="./assets/img/image1.jpg" alt="Image 1" class="rounded-lg shadow-lg w-full h-64 object-cover">  
+          <div class="absolute inset-0 bg-black bg-opacity-30 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">  
+            <span class="text-white text-lg font-semibold">Aide Communautaire</span>  
+          </div>  
+        </div>  
+        <div class="relative group">  
+          <img src="./assets/img/image2.jpg" alt="Image 2" class="rounded-lg shadow-lg w-full h-64 object-cover">  
+          <div class="absolute inset-0 bg-black bg-opacity-30 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">  
+            <span class="text-white text-lg font-semibold">Projet Éducatif</span>  
+          </div>  
+        </div>  
+        <div class="relative group">  
+          <img src="./assets/img/image3.jpg" alt="Image 3" class="rounded-lg shadow-lg w-full h-64 object-cover">  
+          <div class="absolute inset-0 bg-black bg-opacity-30 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">  
+            <span class="text-white text-lg font-semibold">Distribution Alimentaire</span>  
+          </div>  
+        </div>  
+      </div>  
+      <a href="#" class="inline-block mt-8 bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition">Voir plus</a>  
+    </div>  
+  </section>
+
+  <!-- Section Aperçu du Blog -->
+  <section id="blog-preview" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6 fade-in">Aperçu du Blog</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 fade-in">
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image3.jpg" alt="Article 1" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Titre de l'Article 1</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Découvrez comment nos dernières initiatives ont aidé des centaines de familles à travers le pays.
+          </p>
+          <a href="#" class="text-blue-700 hover:underline">Lire l'article</a>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image2.jpg" alt="Article 2" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Titre de l'Article 2</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Comment rejoindre notre équipe de bénévoles ? Découvrez les témoignages de nos membres !
+          </p>
+          <a href="#" class="text-blue-700 hover:underline">Lire l'article</a>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <img src="./assets/img/image1.jpg" alt="Article 3" class="rounded-lg mb-4">
+          <h3 class="text-lg font-bold mb-2">Titre de l'Article 3</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Un aperçu des projets à venir pour soutenir les communautés rurales en 2025.
+          </p>
+          <a href="#" class="text-blue-700 hover:underline">Lire l'article</a>
+        </div>
+      </div>
+      <a href="#" class="inline-block mt-8 bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition">Voir plus</a>
+    </div>
+  </section>
+
+<!-- Section Citations Inspirantes -->
+<section id="quotes" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6 fade-in">Citations Inspirantes</h2>
+      <div id="quote-box" class="relative mx-auto w-11/12 md:w-2/3 lg:w-1/2 p-6 bg-gray-100 rounded-lg shadow-lg fade-in">
+        <div class="quote-symbol">“</div>
+        <blockquote id="quote-text" class="text-lg italic text-gray-600">Le bonheur est la seule chose qui se double si on le partage.</blockquote>
+        <cite id="quote-author" class="block text-sm font-semibold text-blue-700 mt-4">Albert Schweitzer</cite>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Section Contact et Comment Vous Pouvez Aider -->
+<section id="contact-help" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <!-- Section "Comment Vous Pouvez Aider" -->
+    <h2 class="text-3xl font-bold mb-6 text-center text-blue-900 fade-in">Comment Vous Pouvez Aider</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in mb-16">
+      <!-- Option 1 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/img/image3.jpg" alt="Faire un Don" class="rounded-lg mb-4 h-56 w-full object-cover">
+        <h3 class="text-lg font-bold mb-2">Faire un Don</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Vos contributions financières nous permettent de financer nos projets, soutenir des familles dans le besoin et étendre nos activités à plus de communautés vulnérables.
+        </p>
+      </div>
+      <!-- Option 2 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/img/image2.jpg" alt="Devenir Bénévole" class="rounded-lg mb-4 h-56 w-full object-cover">
+        <h3 class="text-lg font-bold mb-2">Devenir Bénévole</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Rejoignez notre équipe de bénévoles pour participer à nos activités sur le terrain : distribution d'aides, sensibilisation ou soutien logistique.
+        </p>
+      </div>
+      <!-- Option 3 -->
+      <div class="p-6 bg-green-100 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/img/image1.jpg" alt="Partager nos Actions" class="rounded-lg mb-4 h-56 w-full object-cover">
+        <h3 class="text-lg font-bold mb-2">Partager</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Abonnez-vous à notre page Facebook et aidez-nous à sensibiliser davantage en partageant nos initiatives et projets avec votre entourage ou sur vos réseaux sociaux.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section Contact -->
+    <h2 class="text-3xl font-bold mb-6 text-center text-blue-900 fade-in">Contactez-Nous</h2>
+    <div class="flex flex-wrap justify-center gap-8 fade-in">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/onggerod?locale=fr_FR" class="flex items-center gap-4 p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg hover:bg-blue-100 transition">
+        <i class="fa-brands fa-facebook-f text-blue-700 text-2xl"></i>
+        <span class="text-blue-700 font-semibold text-lg">Rejoignez-nous sur Facebook</span>
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/96 45 43 93" class="flex items-center gap-4 p-6 bg-green-50 rounded-lg shadow hover:shadow-lg hover:bg-green-100 transition">
+        <i class="fa-brands fa-whatsapp text-green-700 text-2xl"></i>
+        <span class="text-green-700 font-semibold text-lg">Contactez-nous sur WhatsApp</span>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:Assogbacletus46@gmail.com" class="flex items-center gap-4 p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg hover:bg-gray-200 transition">
+        <i class="fa-solid fa-envelope text-gray-700 text-2xl"></i>
+        <span class="text-gray-700 font-semibold text-lg">Envoyez-nous un Email</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- JavaScript -->
+  <script>
+    const quotes = [
+      { text: "L'éducation est l'arme la plus puissante pour changer le monde.", author: "Nelson Mandela" },
+      { text: "Ce que nous faisons pour nous-mêmes meurt avec nous ; ce que nous faisons pour les autres reste et est immortel.", author: "Albert Pine" },
+      { text: "Seul on va plus vite, ensemble on va plus loin.", author: "Proverbe africain" },
+      { text: "Le meilleur moment pour planter un arbre était il y a 20 ans. Le deuxième meilleur moment est maintenant.", author: "Proverbe chinois" }
+    ];
+  
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    let currentQuoteIndex = 0;
+  
+    function updateQuote() {
+      const { text, author } = quotes[currentQuoteIndex];
+      quoteText.textContent = text;
+      quoteAuthor.textContent = author;
+      currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+    }
+  
+    // Initial display
+    updateQuote();
+  
+    // Update quote every 5 seconds
+    setInterval(updateQuote, 5000);
+  </script>
+  
+
+</body>
+</html>
